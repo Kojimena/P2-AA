@@ -38,8 +38,7 @@ def divideAndConquerSolution(arr):
     N = len(arr)
     
     # Function call
-    print("Minimum number of multiplications is ",
-    MatrixChainOrder(arr, 1, N-1))
+    print("Minimum number of multiplications is", MatrixChainOrder(arr, 1, N-1))
 
 # Example of usage
 arr = [1, 2, 3, 4, 3]
