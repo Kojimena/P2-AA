@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from greedy import *
 
-# Función para tiempo de algoritmo
 def time_algorithm(entries):
     times = []
     for entry in entries:

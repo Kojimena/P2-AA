@@ -10,7 +10,7 @@ for entry in test_entries:
     print(f"Entry {counter}: {entry}")
     counter += 1
 
-# Function for timing the given algorithm
+
 def time_algorithm(entries):
     times = []
     for entry in entries:
@@ -22,10 +22,8 @@ def time_algorithm(entries):
     return times
 
 if __name__ == '__main__':
-# Timing the matrix chain multiplication for each entry
     times = time_algorithm(test_entries)
 
-    # Plotting
     plt.figure(figsize=(10, 6))
     plt.plot([len(entry) for entry in test_entries], times, marker='o')
     plt.title('Execution Time of Matrix Chain Multiplication with Memoization')
